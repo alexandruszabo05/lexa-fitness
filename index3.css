@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to right, #870000, #190a05);
+}
+
+#items{
+    width: 200px;
+    margin-right:auto;
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#items1{
+    width: 200px;
+    margin-right:auto;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.produs{
+    display: flex;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.animate{
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to right, #870000, #190a05);
+    margin-bottom: -350px;
+}
+
+#shop-color{
+    font-size: 12em;
+    color:  whitesmoke;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+            typing 3s steps(5),
+            cursor .4s infinite;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+#gift{
+    color:red;
+    text-align: center;
+    padding-right: 30px;
+}
+
+#name{
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+}
+
+hr{
+    border: 1px solid grey;
+}
